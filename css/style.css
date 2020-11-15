@@ -11,23 +11,45 @@
  body{
     background-color: var(--background-color);
     color: var(--primari-text-color);
+    font-family: Roboto, sans-serif;
  }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,{
+     font-family: Comfortaa;
+ }
+ .logo {
+     font-family: Raleway, cursive;
+     font-family: Raleway;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1,19px;
+}
  ul {
     list-style: none;
  }
- .site-nav .link {
+ .site-nav a{
      color: var(--accent-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
  }
- .site-nav .link:hover,
- .site-nav .link:focus {
-     color: var(--primari-text-color);
+ .site-nav a:hover,
+ .site-nav a:focus {
+     color: var(--accent-color);
  }
  .contacts-nav .link {
      color: var(--accent-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
  }
  .contacts-nav .link:hover,
  .contacts-nav .link:focus {
-     color: var(--primari-text-color) ;
+     color: var(--accent-color) ;
  }
  .site-nav .link-nav {
     color: var(--primari-text-color);
@@ -36,8 +58,14 @@
 .site-nav .link-nav:focus {
     color: var(--accent-color) ;
 }
+.site-nav .link .current{
+    color: var(--primari-text-color);
+}
 .contacts-nav .phone {
     color: var(--text-color);
+    font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
 }
 .contacts-nav .phone:hover,
  .contacts-nav .phone:focus {
@@ -45,6 +73,9 @@
  }
  .section-text{
      color: var(--text-color) ;
+     font-weight: 400px;
+    font-size: 16px;
+    line-height: 1,18px;
  }
  * {
     margin: 0;
@@ -58,19 +89,80 @@ a {
 }
 .hero .title{
     color: var(--text-color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36px;
+    text-align: center;
+
 }
 .hero .link{
     color: var(--text-color-white);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1,87px;
 }
 .contacts{
     background-color: var(--secondary-color-blue);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
 }
 .contacts .contacts-adress{
     color: var(--text-color-white);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
 }
 .contacts .contacts-connection{
     color: var(--phone-color);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
 }
 .command-selection{
     background-color: var(--secondary-color-grey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,26px;
+}
+.activ-list{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,26px;
+}
+.passive-list{
+    background-color: var(--secondary-color-grey);
+    color: var(--primari-text-color);
+}
+.activ-list:hover,
+.activ-list:focus{
+    background-color: var(--secondary-color-grey);
+}
+.section h2{
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1,5px;
+    text-align: center;
+
+}
+.command-selection .section-text{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.section .title{
+    font-weight: 700px;
+font-size: 14px;
+line-height: 1,14px;
+}
+.section .section-text{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,14px;
+}
+.filter{
+
 }
